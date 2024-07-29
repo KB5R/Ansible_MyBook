@@ -1,0 +1,6 @@
+[test:vars]
+ansible_sudo_pass=wiki
+ansible_password=wiki
+
+[test]
+vrn.test  ansible_host=10.255.250.133     ansible_user=wiki

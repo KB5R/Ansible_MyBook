@@ -1,0 +1,10 @@
+---
+- name: Ping Server
+  hosts: all
+  become: yes
+
+  tasks:
+
+    - name: Tak Ping
+      ping:
+
